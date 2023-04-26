@@ -6,7 +6,7 @@
 </head>
 
 <body>
-	<h1>Note Keeper</h1>
+	<h1>Your Kubernetes Sticker Wall ^^</h1>
 
 	<div style="display: flex;">
 
@@ -20,7 +20,7 @@
 					value="<%= element.noteContent %>">
 					<%= element.noteContent %></textarea>
 				<br>
-				<button type="submit">Update</button>
+				<button type="submit">Update Me</button>
 			</form>
 
 			<form action="/delete" method="post">
@@ -32,7 +32,7 @@
 			<% }) %>
 	</div>
 
-	<h1>Add Note</h1>
+	<h1>Add New K8s Note</h1>
 	<form action="/" method="post">
 		<input type="number" style="display: none;"
 			name="noteId">
@@ -40,7 +40,7 @@
 				placeholder="Type Here..."
 				name="noteContent"></textarea>
 		<br>
-		<button type="submit">Add</button>
+		<button type="submit">Post Me</button>
 	</form>
 </body>
 
