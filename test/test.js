@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const notes = [{
     noteId: 1,
-    noteContent: "Hey guys, add your important notes here."
+    noteContent: "Welcome everyone to Kubernetes Architecture Learning Session! Today is April 28, 2023 and it's a great day to learn! Add your notes here!."
 }];
 
 app.get("/", (req, res) => {
